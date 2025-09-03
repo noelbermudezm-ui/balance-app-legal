@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Privacy Policy</title>
+    <script type="text/javascript">
+        // Detect browser language
+        var userLang = navigator.language || navigator.userLanguage;
+
+        // Redirect to the Spanish version if the language is Spanish
+        if (userLang.startsWith("es")) {
+            window.location.replace("es.html");
+        } 
+        // Otherwise, redirect to the English version as a default
+        else {
+            window.location.replace("en.html");
+        }
+    </script>
+</head>
+<body>
+    <p>Redirecting to the correct language...</p>
+</body>
+</html>
